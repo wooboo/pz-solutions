@@ -6,7 +6,7 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
+import ja from '../assets/images/ja.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -41,51 +41,49 @@ class Index extends React.Component {
 
         <div id="main">
 
-          <section id="intro" className="main">
+          <section id="founder" className="main">
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>Piotr Żabówka</h2>
                 </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+                <p>Założył PZ Solutions w 2011 roku, ale już od 2001 roku wspiera wiele firm w realizacji projektów IT w Polsce i w Europie</p>
                 <ul className="actions">
-                  <li><Link to="/generic" className="button">Learn More</Link></li>
+                  {/* <li><Link to="/about-me" className="button">Czytaj dalej...</Link></li> */}
                 </ul>
               </div>
-              <span className="image"><img src={pic01} alt="" /></span>
+              <span className="image"><img src={ja} alt="" /></span>
             </div>
           </section>
 
-          <section id="first" className="main special">
+          <section id="services" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Usługi</h2>
             </header>
             <ul className="features">
               <li>
                 <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <h3>IT Architecture &amp; Development</h3>
+                <p>Tworzenie architektur rozwiązań IT. Budowanie rozproszonej i skalowalnej infrastruktury dla projektów IT. Tworzenie oprogramowania w .net oraz javascript jako część zespołu jak i na indywidualne zamówienie.</p>
               </li>
               <li>
                 <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <h3>Project Management</h3>
+                <p>Zarządzania projektami w metodykach zwinnych. Prowadzenie projektów w zespołach scrum'owych.</p>
               </li>
               <li>
                 <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <h3>IT Management</h3>
+                <p>Zarządzanie infrastruturą IT. Administracja systemów wspomagających.</p>
               </li>
             </ul>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
+                {/* <li><Link to="/services" className="button">Czytaj dalej...</Link></li> */}
               </ul>
             </footer>
           </section>
-
+{/*
           <section id="second" className="main special">
             <header className="major">
               <h2>Ipsum consequat</h2>
@@ -135,7 +133,7 @@ class Index extends React.Component {
               </ul>
             </footer>
           </section>
-
+*/}
         </div>
 
       </Layout>
